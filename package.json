@@ -1,0 +1,28 @@
+{
+    "name": "rm-dir",
+    "version": "0.1.0",
+    "description": "Remove directory and all its contents, sync or async",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RealTimeCom/rm-dir.git"
+    },
+    "keywords": [
+        "rm",
+        "dir",
+        "remove",
+        "delete",
+        "directory",
+        "files",
+        "folder",
+        "del",
+        "sync",
+        "async"
+    ],
+    "author": "Tanase Laurentiu Iulian <expertphp@gmail.com> (https://github.com/RealTimeCom)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RealTimeCom/rm-dir/issues"
+    },
+    "homepage": "https://github.com/RealTimeCom/rm-dir"
+}
