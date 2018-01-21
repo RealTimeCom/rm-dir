@@ -1,7 +1,8 @@
-/* SOURCE FILE - Copyright (c) 2017 rm-dir - Tanase Laurentiu Iulian - https://github.com/RealTimeCom/rm-dir */
+/* SOURCE FILE - Copyright (c) 2018 rm-dir - Tanase Laurentiu Iulian - https://github.com/RealTimeCom/rm-dir */
 'use strict';
 
-const fs = require('fs'), s = require('path').sep;
+const fs = require('fs'),
+    s = require('path').sep;
 
 function each(d, a, cb) {
     if (typeof cb === 'function') { // async
@@ -52,4 +53,11 @@ function rmdir(d, cb) {
         }
     }
 }
+
+rmdir.promise = d => new Promise((res, rej) => {
+    rmdir(d, e => {
+        e ? rej(e) : res(null);
+    });
+});
+
 module.exports = rmdir;
