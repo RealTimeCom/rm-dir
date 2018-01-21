@@ -15,7 +15,7 @@ function each(d, a, cb) {
                     } else { cb(e); }
                 } else { each(d, a.splice(0, 1) ? a : a, cb); }
             });
-        } else { fs.rmdir(d, e => cb(e)); }
+        } else { fs.rmdir(d, cb); }
     } else { // sync
         if (a.length > 0) {
             try {
