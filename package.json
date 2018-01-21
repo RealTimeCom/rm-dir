@@ -17,7 +17,8 @@
         "folder",
         "del",
         "sync",
-        "async"
+        "async",
+        "promise"
     ],
     "author": "Tanase Laurentiu Iulian <expertphp@gmail.com> (https://github.com/RealTimeCom)",
     "license": "MIT",
