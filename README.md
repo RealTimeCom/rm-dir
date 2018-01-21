@@ -2,6 +2,8 @@
 
 **Remove directory and all its contents, sync or async**
 
+`rm-dir` is a very fast and simple module, based only on native File System (FS), no additional module is required.
+
 ```sh
 $ npm install rm-dir
 ```
