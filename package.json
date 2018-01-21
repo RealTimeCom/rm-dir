@@ -24,5 +24,11 @@
     "bugs": {
         "url": "https://github.com/RealTimeCom/rm-dir/issues"
     },
-    "homepage": "https://github.com/RealTimeCom/rm-dir"
+    "homepage": "https://github.com/RealTimeCom/rm-dir",
+    "eslintConfig": {
+        "env": {
+            "node": true,
+            "es6": true
+        }
+    }
 }
