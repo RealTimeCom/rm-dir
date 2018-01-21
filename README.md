@@ -11,7 +11,7 @@ const rmdir = require('rm-dir');
 
 rmdir('/dir/path/s-name'); // SYNC
 
-rmdir('/dir/path/a-name', e => console.log(e)); // ASYNC
+rmdir('/dir/path/a-name', console.log); // ASYNC
 ```
 --------------------------------------------------------
 **rm-dir** is licensed under the MIT license. See the included `LICENSE` file for more details.
