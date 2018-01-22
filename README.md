@@ -17,7 +17,7 @@ rmdir('/path/dir');
 ```
 ASYNC, with callback function "console.log"
 ```js
-rmdir('/path/dir', console.log); // 
+rmdir('/path/dir', console.log);
 ```
 Promise
 ```js
