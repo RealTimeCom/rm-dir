@@ -7,7 +7,7 @@
 ```sh
 $ npm install rm-dir
 ```
-Require
+Include in your script
 ```js
 const rmdir = require('rm-dir');
 ```
