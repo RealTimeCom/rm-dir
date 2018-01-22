@@ -1,6 +1,6 @@
 {
     "name": "rm-dir",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Remove directory and all its contents, sync, async callback or promise",
     "main": "index.js",
     "repository": {

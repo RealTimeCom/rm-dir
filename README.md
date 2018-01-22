@@ -7,18 +7,24 @@
 ```sh
 $ npm install rm-dir
 ```
-#### Example
+Require
 ```js
 const rmdir = require('rm-dir');
-
-rmdir('/path/dir'); // SYNC, no callback function, use try&catch for errors
-
-rmdir('/path/dir', console.log); // ASYNC, with callback function "console.log"
-
-// Promise
+```
+SYNC, no callback function, use "try & catch" for errors
+```js
+rmdir('/path/dir');
+```
+ASYNC, with callback function "console.log"
+```js
+rmdir('/path/dir', console.log); // 
+```
+Promise
+```js
 rmdir.promise('/path/dir').then(console.log).catch(console.error);
-
-// async / await
+```
+async / await
+```js
 (async () => {
     try {
         console.log(await rmdir.promise('/path/dir'));
