@@ -26,12 +26,8 @@ rmdir.promise('/path/dir').then(console.log).catch(console.error);
 async / await
 ```js
 (async () => {
-    try {
-        console.log(await rmdir.promise('/path/dir'));
-    } catch(e) {
-        console.error(e);
-    }
-})();
+    console.log(await rmdir.promise('/path/dir'));
+})().catch(console.error);
 ```
 --------------------------------------------------------
 **rm-dir** is licensed under the MIT license. See the included `LICENSE` file for more details.
